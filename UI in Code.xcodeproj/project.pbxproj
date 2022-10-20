@@ -13,6 +13,10 @@
 		BE41E5C22901A187002B4C3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE41E5C02901A187002B4C3F /* Main.storyboard */; };
 		BE41E5C42901A187002B4C3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE41E5C32901A187002B4C3F /* Assets.xcassets */; };
 		BE41E5C72901A187002B4C3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE41E5C52901A187002B4C3F /* LaunchScreen.storyboard */; };
+		BE41E5CF2901A2E3002B4C3F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE41E5CE2901A2E3002B4C3F /* FirstViewController.swift */; };
+		BE41E5D12901A2F2002B4C3F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE41E5D02901A2F2002B4C3F /* SecondViewController.swift */; };
+		BE41E5D32901A2FD002B4C3F /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE41E5D22901A2FD002B4C3F /* ThirdViewController.swift */; };
+		BE41E5D62901A44C002B4C3F /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE41E5D52901A44C002B4C3F /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		BE41E5C32901A187002B4C3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE41E5C62901A187002B4C3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE41E5C82901A187002B4C3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE41E5CE2901A2E3002B4C3F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		BE41E5D02901A2F2002B4C3F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BE41E5D22901A2FD002B4C3F /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		BE41E5D52901A44C002B4C3F /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		BE41E5B92901A187002B4C3F /* UI in Code */ = {
 			isa = PBXGroup;
 			children = (
+				BE41E5D42901A302002B4C3F /* Controllers */,
 				BE41E5BA2901A187002B4C3F /* AppDelegate.swift */,
 				BE41E5BC2901A187002B4C3F /* SceneDelegate.swift */,
 				BE41E5BE2901A187002B4C3F /* ViewController.swift */,
@@ -65,6 +74,17 @@
 				BE41E5C82901A187002B4C3F /* Info.plist */,
 			);
 			path = "UI in Code";
+			sourceTree = "<group>";
+		};
+		BE41E5D42901A302002B4C3F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BE41E5D22901A2FD002B4C3F /* ThirdViewController.swift */,
+				BE41E5D02901A2F2002B4C3F /* SecondViewController.swift */,
+				BE41E5CE2901A2E3002B4C3F /* FirstViewController.swift */,
+				BE41E5D52901A44C002B4C3F /* FourthViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +161,10 @@
 				BE41E5BF2901A187002B4C3F /* ViewController.swift in Sources */,
 				BE41E5BB2901A187002B4C3F /* AppDelegate.swift in Sources */,
 				BE41E5BD2901A187002B4C3F /* SceneDelegate.swift in Sources */,
+				BE41E5D62901A44C002B4C3F /* FourthViewController.swift in Sources */,
+				BE41E5D12901A2F2002B4C3F /* SecondViewController.swift in Sources */,
+				BE41E5D32901A2FD002B4C3F /* ThirdViewController.swift in Sources */,
+				BE41E5CF2901A2E3002B4C3F /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
